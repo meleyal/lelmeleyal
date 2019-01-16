@@ -36,7 +36,7 @@ defaults:
     type: projects
   values:
     layout: project
-site: Simples Jekyll Theme
+site: Testing
 markdown: kramdown
 kramdown:
   input: GFM
