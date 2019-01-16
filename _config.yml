@@ -1,0 +1,25 @@
+---
+title: A Literary Calendar
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: redcarpet
+permalink: pretty
+tagline: A Jekyll theme
+description: The Review
+url: 
+baseurl: "/"
+author:
+  name: Mark Otto
+  url: https://twitter.com/mdo
+paginate: 5
+version: 2.1.0
+github:
+  repo: https://github.com/poole/hyde
+plugins:
+- jekyll-paginate
