@@ -1,25 +1,50 @@
 ---
-title: A Literary Calendar
+title: Lelmeleyal
 timezone: UTC
 collections:
+  pages:
+    title: Pages
+    output: true
+    permalink: "/:name"
   posts:
     title: Posts
     output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/project/:slug"
   uploads:
     title: Uploads
     output: true
-markdown: redcarpet
-permalink: pretty
-tagline: A Jekyll theme
-description: The Review
-url: 
-baseurl: "/"
-author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-paginate: 5
-version: 2.1.0
-github:
-  repo: https://github.com/poole/hyde
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+site: Simples Jekyll Theme
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  style: compressed
 plugins:
 - jekyll-paginate
+- jekyll-sitemap
+paginate: 6
+paginate_path: "/blog/page:num/"
