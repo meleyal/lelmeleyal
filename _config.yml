@@ -2,17 +2,9 @@
 title: 'A Literary Calendar: The Review'
 timezone: UTC
 collections:
-  pages:
-    title: Pages
-    output: true
-    permalink: "/:name"
   posts:
     title: Posts
     output: true
-  projects:
-    title: Projects
-    output: true
-    permalink: "/project/:slug"
   uploads:
     title: Uploads
     output: true
@@ -23,20 +15,9 @@ defaults:
     layout: default
 - scope:
     path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
     type: posts
   values:
     layout: post
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: project
-site: Testing
 markdown: kramdown
 kramdown:
   input: GFM
