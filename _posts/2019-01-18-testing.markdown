@@ -7,6 +7,6 @@ published: false
 
 **Introducing this blog**
 
-![review front cover.jpg](/uploads/review%20front%20cover.jpg)
+![cover.jpg](/uploads/cover.jpg)
 
 blah
