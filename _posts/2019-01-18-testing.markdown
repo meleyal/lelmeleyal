@@ -7,6 +7,8 @@ published: false
 
 **Introducing this blog**
 
+hello world
+
 <div class="gallery" data-columns="3">
 <img src="/uploads/review%20front%20cover.jpg">
 <img src="/images/demo/demo-landscape.jpg">
