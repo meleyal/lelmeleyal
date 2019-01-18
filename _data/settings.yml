@@ -1,6 +1,4 @@
 basic_settings:
-  site_title: "The Guardian Literary Calendar: A Review"
-  site_tagline: "Reviewing the 2019 Guardian Literary Calendar, which was published in the Guardian Review:<br>An Escher-esque undertaking."
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -22,7 +20,7 @@ grid_settings:
 
 social_settings:
   facebook_url: ""
-  twitter_url: "https://twitter.com/litcalreview"
+  twitter_url: ""
   instagram_url: ""
 
 color_settings:

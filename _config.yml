@@ -1,5 +1,5 @@
 ---
-title: 'A Literary Calendar: The Review'
+title: 'The Guardian Literary Calendar: A Review'
 timezone: UTC
 collections:
   posts:
@@ -18,6 +18,8 @@ defaults:
     type: posts
   values:
     layout: post
+tagline: Reviewing the 2019 Guardian Literary Calendar, which was published in the
+  Guardian Review:<br>An Escher-esque undertaking.
 markdown: kramdown
 kramdown:
   input: GFM
