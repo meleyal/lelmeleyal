@@ -2,16 +2,8 @@
 title: A Literary Calendar for 2019 from the Guardian Review Saturday 5 January 2019
   - reviewed!
 date: 2019-01-18 09:13:00 Z
-published: false
 ---
 
-**Introducing this blog**
 
-<div class="gallery" data-columns="3">
-![review front cover.jpg](/uploads/review%20front%20cover.jpg)
-<img src="/images/demo/demo-landscape.jpg">
-<img src="/images/demo/demo-square.jpg">
-<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-blah
+# 
+![review front cover.jpg](/uploads/review%20front%20cover.jpg)**Introducing this blog**
