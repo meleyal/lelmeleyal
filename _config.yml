@@ -1,5 +1,5 @@
-title: "The Guardian Literary Calendar: A Review"
-tagline: "Reviewing the 2019 Guardian Literary Calendar, which was published in the Guardian Review:<br>An Escher-esque undertaking."
+---
+title: 'The Guardian Literary Calendar: A Review'
 timezone: UTC
 collections:
   posts:
@@ -9,15 +9,17 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
+- scope:
+    path: ''
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+tagline: Reviewing the 2019 Guardian Literary Calendar, which was published in the
+  Guardian Review:<br>An Escher-esque undertaking.
 markdown: kramdown
 kramdown:
   input: GFM
@@ -25,7 +27,7 @@ kramdown:
 sass:
   style: compressed
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+- jekyll-paginate
+- jekyll-sitemap
 paginate: 6
 paginate_path: "/blog/page:num/"
