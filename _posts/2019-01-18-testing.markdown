@@ -8,12 +8,10 @@ published: false
 **Introducing this blog**
 
 <div class="gallery" data-columns="3">
-
-![review front cover.jpg](/uploads/review%20front%20cover.jpg)
+<img src="/uploads/review%20front%20cover.jpg">
 <img src="/images/demo/demo-landscape.jpg">
 <img src="/images/demo/demo-square.jpg">
 <img src="/images/demo/demo-landscape-2.jpg">
-
 </div>
 
 blah
